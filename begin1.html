@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+
+	<meta charset="utf-8">
+	<title>.......</title>
+	
+	
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/favicon.ico">
+<link  href="js/script.js">
+
+
+
+    <head>
+	 <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script>$(function(){
+$("div.tg").hide();
+var i=0;
+    $("button").on('click',function(){
+	
+        $("body div.hide").siblings().eq(1).remove();	test.style.visibility = "visible";
+        an.stop();
+    });
+
+var an=$("div.rect .a").animate({width:'100%'},7500,function(){
+
+        $(".hide").siblings().eq(1).remove();
+
+    });
+var clr = setInterval(function(){
+        $(".prct").text(i+++"%");
+        if(i==50){
+            $(".prct").css({"color":"white"});
+        }
+        if(i==101){
+            clearInterval(clr);
+	
+        }
+		
+        },75); 
+		
+var d=new Date();
+    var mins = ('0'+d.getMinutes()).slice(-2);
+    $("div.time").text(d.getHours()+":"+mins);
+$('div.wnds').on('click',function(){
+        $("div.tg").fadeToggle(50);
+		
+    });
+	
+});
+
+	
+
+
+
+
+
+
+
+
+</script>
+
+    </head>
+    <body>
+
+	<div align="center" class="mainmenu">
+	        <div class="tg">
+            <div class="win95"></div>
+            <hr>
+        </div>
+        <div class="hide">     </div>
+        <div class="window">
+            <div class="wh">Copying Files...</div>
+            <div class="text">
+                Source:<br>
+                A:\sololearn.ex_<br>
+                Destination:<br>
+                c:\windows\SYSTEM\my_brain.exe
+            </div>
+            <div class="pb">
+                <div class="rect">
+                    <div class="a"></div>
+                </div>
+            </div>
+			<br>
+            <div class="prct"></div>
+            <button><div>Cancel</div></button>
+        </div>
+       
+        
+           
+            
+		
+		
+		
+		
+	</div>
+	
+<div align="center" class="test"><a>fhgfhghgfhgf</a></div>
+    
+     
+        
+    </body>
+</html>

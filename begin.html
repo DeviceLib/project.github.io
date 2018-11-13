@@ -17,83 +17,35 @@
 
     <head>
 	 <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-	<script>$(function(){
-$("div.tg").hide();
-var i=0;
-    $("button").on('click',function(){
-	
-        $("body div.hide").siblings().eq(1).remove();	test.style.visibility = "visible";
-        an.stop();
-    });
-
-var an=$("div.rect .a").animate({width:'100%'},7500,function(){
-
-        $(".hide").siblings().eq(1).remove();
-
-    });
-var clr = setInterval(function(){
-        $(".prct").text(i+++"%");
-        if(i==50){
-            $(".prct").css({"color":"white"});
-        }
-        if(i==101){
-            clearInterval(clr);
-	
-        }
-		
-        },75); 
-		
-var d=new Date();
-    var mins = ('0'+d.getMinutes()).slice(-2);
-    $("div.time").text(d.getHours()+":"+mins);
-$('div.wnds').on('click',function(){
-        $("div.tg").fadeToggle(50);
-		
-    });
-	
-});
-
-	
-
-
-
-
-
-
-
-
-</script>
 
     </head>
     <body>
 
-	<div align="center" class="mainmenu">
-	        <div class="tg">
+	<div align="center" class="mainmenu1">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+           <div class="tg">
             <div class="win95"></div>
-            <hr>
+            
         </div>
-        <div class="hide">       </div>
-        <div class="window">
+        <div class="hide">     </div>
+        <div class="window1">
             <div class="wh">Copying Files...</div>
             <div class="text">
                 Source:<br>
-                A:\sololearn.ex_<br>
+                A:\bestname.ex_<br>
                 Destination:<br>
-                c:\windows\SYSTEM\my_brain.exe
+                c:\windows\SYSTEM\enter_name.exe
             </div>
             <div class="pb">
                 <div class="rect">
-                    <div class="a"></div>
+				<input class="rect" type="text" >
+                  
                 </div>
             </div>
 			<br>
             <div class="prct"></div>
-            <button><div>Cancel</div></button>
+            <button><div>Set</div></button>
         </div>
-       
-        
-           
             
 		
 		
@@ -101,7 +53,7 @@ $('div.wnds').on('click',function(){
 		
 	</div>
 	
-<div style="visibility:hidden" class="test">fhgfhghgfhgf</div>
+
     
      
         
